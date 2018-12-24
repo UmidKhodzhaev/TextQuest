@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -23,9 +24,120 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Hello"
+                android:text="Тебя родили, сделай выбор:"
                 android:textColor="#ffffff"
-                android:textSize="50sp"/>
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/openEyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Открыть глаза" />
+
+                <Button
+                    android:id="@+id/cry"
+                    android:layout_width="121dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Закричать" />
+
+                <Button
+                    android:id="@+id/nothingToDo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Ничего не делать" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textAnswerOnButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" "
+                android:textColor="#D2B48C"
+                android:textSize="24sp"/>
+
+
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/superPower"
+                    android:layout_width="183dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#2F4F4F"
+                    android:text=" " />
+
+                <Button
+                    android:id="@+id/nothing"
+                    android:layout_width="187dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#2F4F4A"
+                    android:text=" " />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textStory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#D2B48C"
+                android:textSize="24sp"/>
+            <ImageView
+            android:id="@+id/imageRozetka"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rozetka"/>
+            <TextView
+                android:id="@+id/textSuperpower"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#D2B48C"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textConsequences"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textColor="#D2B48C"
+                android:textSize="24sp"/>
+            <Button
+            android:id="@+id/to3level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=" "
+                android:background="#2F4F4F"
+                android:textColor="#6B8E23"/>
+            <Button
+                android:id="@+id/dead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2F4F4F"
+                android:textColor="#ffffff"
+                android:text=""
+                android:textSize="32sp"/>
+
         </LinearLayout>
     </ScrollView>
 
