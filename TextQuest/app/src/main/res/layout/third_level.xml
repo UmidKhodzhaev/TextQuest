@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
-                android:inputType="number" />
+                android:text="Введите x и y без знаков препинания и по убыванию"/>
 
             <Button
                 android:id="@+id/answered"
@@ -142,23 +142,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="На красный. Сбила машина." />
+                android:text="Вас сбила машина." />
 
             <TextView
                 android:id="@+id/consequenceGreen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="На зеленый. Поскользнулся, упал в открытый люк и свернул шею" />
+                android:text="Вы поскользнулся, упал в открытый люк и свернул шею" />
 
             <Button
                 android:id="@+id/dead"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="#2F4F4F"
+                android:background="#000000"
                 android:textColor="#ffffff"
-                android:text=""
+                android:text="Начать с начала"
                 android:textSize="32sp"/>
 
         </LinearLayout>

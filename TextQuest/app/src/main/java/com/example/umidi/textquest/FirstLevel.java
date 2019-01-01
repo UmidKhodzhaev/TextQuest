@@ -33,7 +33,7 @@ public class FirstLevel extends AppCompatActivity {
         check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if((name.getText().toString()).length() < 4){
+                if((name.getText().toString()).length() < 3){
                     textView1.setText(text4);
                     cont.setText(text2);
                     cont.setBackgroundColor(Color.CYAN);
