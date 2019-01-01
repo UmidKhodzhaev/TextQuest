@@ -24,17 +24,142 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Приветствую на 3-ем уровне!!!!!!!!!"
+                android:text="Тебе уже 7 лет тебя отправляют в школу:"
                 android:textColor="#ffffff"
                 android:textSize="24sp" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/fun"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="
+Радоваться
+
+" />
+
+                <Button
+                    android:id="@+id/sad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Умолять родителей не делать этого" />
+
+                <Button
+                    android:id="@+id/nothing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="
+ Не обращать вмнимания.
+" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sendToSchool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Тебя отправили в школу" />
+
+            <TextView
+                android:id="@+id/oge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ты выжил до 9-го класса, идет ОГЭ по математике надо решить пример:" />
+
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/exerciseToOGE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/exercise" />
+
+            <EditText
+                android:id="@+id/answerToOGE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/answered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Нажмите после ввода ответа" />
+
+            <TextView
+                android:id="@+id/wrongAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ответ неправильный, к сожалению ты провалил ОГЭ и родители выгнали тебя из дома, после чего ты замерз насмерть." />
+
+            <TextView
+                android:id="@+id/rightAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Ответ правильный, поздравляю ты сдал ОГЭ на отлично!" />
+
+            <TextView
+                android:id="@+id/crossStreet"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                tools:srcCompat="@tools:sample/backgrounds/scenic[1]" />
+                android:text="Ну а теперь настала очередь ЕГЭ, ты идешь на экзамен, надо перейти дорогу:" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+            <Button
+                android:id="@+id/redLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="пойти на красный свет светофора" />
+
+            <Button
+                android:id="@+id/greenLight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="пойти на зеленый свет светофора" />
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/consequenceRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="На красный. Сбила машина." />
+
+            <TextView
+                android:id="@+id/consequenceGreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="На зеленый. Поскользнулся, упал в открытый люк и свернул шею" />
+
+            <Button
+                android:id="@+id/dead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#2F4F4F"
+                android:textColor="#ffffff"
+                android:text=""
+                android:textSize="32sp"/>
 
         </LinearLayout>
     </ScrollView>

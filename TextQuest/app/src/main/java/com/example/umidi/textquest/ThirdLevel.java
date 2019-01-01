@@ -10,10 +10,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ThirdLevel extends AppCompatActivity {
+    TextView sendToSchool, oge, wrongAnswer, rightAnswer, crossStreet;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.third_level);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
     }
 }
 
